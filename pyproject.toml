@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit-core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "centernet"
+description = "Implementation of 'Objects as Points', in PyTorch"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+keywords = [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Objects as Points",
+    "CenterNet",
+    "PyTorch",
+]
+authors = [{name = "Oh Juno", email = "juno.demie.oh@gmail.com"}]
+maintainers = [{name = "Oh Juno", email = "juno.demie.oh@gmail.com"}]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = []
+dynamic = ["version"]
