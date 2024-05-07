@@ -13,7 +13,7 @@ The official repository is here, thanks fot the great work!
 The models in the original repository are also small, fast, and accurate, but **not enough** for CPU and mobile devices.  
 
 Therefore, I want to replace the backbone of the model with a variant of MobileNet and tune the operations to make them suitable for CPU inference.
-I also change the heatmap loss function to compensate for the accuracy lost in the lightweighting process.
+I also change the heatmap loss function to compensate for the accuracy lost in the model compression process.
 
 ## ONNX Export
 
@@ -23,4 +23,4 @@ All models can be converted to the ONNX format. For more information, see [expor
 
 Like the original, this repository is released under the MIT License (see [LICENSE](LICENSE) for details).
 However, some code is borrowed from [torchvision](https://github.com/pytorch/vision) (mobilenet v3 implementation).
-Please refer to the original license of there projects.
+Please refer to the original license of their projects.
